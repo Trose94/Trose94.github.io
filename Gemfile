@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
-gem "jekyll-theme-cayman"
+gem "just-the-docs"
 
 group :jekyll_plugins do
   gem "jekyll-feed"

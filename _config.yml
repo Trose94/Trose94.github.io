@@ -5,7 +5,7 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Trose94.github.io" # the base hostname & protocol for your site
 
-theme: jekyll-theme-cayman
+theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -13,6 +13,10 @@ plugins:
 markdown: kramdown
 kramdown:
   input: GFM
+
+just_the_docs:
+  # Enable dark mode
+  color_scheme: dark
 
 header_pages:
   - index.md
@@ -22,4 +26,3 @@ navigation:
     url: "/"
   - title: "Projects"
     url: "/projects/"
-
