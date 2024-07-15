@@ -4,7 +4,7 @@
 
 layout: home
 ---
-# Welcome to My Portfolio
+#
 
 Hi, I'm Thomas! I am a Business Intelligence Analyst with experience in analytics, data modeling, and Python programming.
 
