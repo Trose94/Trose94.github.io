@@ -4,7 +4,7 @@
 
 layout: home
 ---
-#
+# Test
 
 Hi, I'm Thomas! I am a Business Intelligence Analyst with experience in analytics, data modeling, and Python programming.
 
