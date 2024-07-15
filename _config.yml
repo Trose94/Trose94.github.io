@@ -17,16 +17,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Thomas' Portfolio
-email: Thomasarose94@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Business Intelligence Analyst with experience in analytics, SQL, data modeling, and Python programming.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://Trose94.github.io" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  Trose94
-
+email: your.email@example.com
+description: >- 
+  Business Intelligence Analyst with experience in analytics, data modeling, and Python programming.
+baseurl: "" 
+url: "https://Trose94.github.io"
 
 theme: minimal-mistakes-jekyll
 plugins:
@@ -41,16 +37,13 @@ defaults:
       layout: "single"
       author: "Thomas"
 
-# Minima includes some nice default headers.
 header_pages:
   - index.md
 
-# Use a navigation.yml file to control the header links
 navigation: 
   - title: "Home"
     url: "/"
   - title: "Projects"
     url: "/projects/"
 
-# Enable dark mode
 minimal_mistakes_skin: "dark"
