@@ -5,18 +5,25 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Trose94.github.io" # the base hostname & protocol for your site
 
-theme: just-the-docs
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author: "Thomas"
 
 markdown: kramdown
 kramdown:
   input: GFM
 
-just_the_docs:
-  # Enable dark mode
-  color_scheme: dark
+minima:
+  skin: dark
 
 header_pages:
   - index.md
@@ -26,3 +33,4 @@ navigation:
     url: "/"
   - title: "Projects"
     url: "/projects/"
+

@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
-gem "just-the-docs"
+gem "minimal-mistakes-jekyll", "~> 4.26.0"
 
 group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-sitemap"
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-sitemap", "~> 1.4"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
