@@ -1,35 +1,35 @@
-title: Thomas' Portfolio
-email: your.email@example.com
-description: >-
-  Business Intelligence Analyst with experience in analytics, data modeling, and Python programming.
+title: "Thomas Rose"
+description: "Data Analyst Portfolio"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Trose94.github.io" # the base hostname & protocol for your site
-
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-include-cache
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
-      author: "Thomas"
+# Customization
+author:
+  name: "Thomas Rose"
+  email: "your-email@example.com"
+  bio: "Business Intelligence Analyst specializing in data analytics."
+  avatar: "/assets/images/avatar.jpg" # Add your avatar image in the assets/images folder
 
-markdown: kramdown
-kramdown:
-  input: GFM
+# Social links
+social:
+  twitter: your_twitter_handle
+  linkedin: your_linkedin_profile
+  github: Trose94
 
-minima:
-  skin: dark
+# Google Analytics
+google_analytics: UA-XXXXXXXX-X
 
-header_pages:
-  - index.md
-
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects/"
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
